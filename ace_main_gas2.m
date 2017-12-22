@@ -1,4 +1,10 @@
 function [psi,phi]=ace_main_gas(x,dim,canv)
+%This function calculates the conditional expectation with smoothing(kernel).
+%x=[y x1 x2 ...]
+%dim=number of columns of x-1
+%canv=size of canvas, 2*2,3*3,...
+%psi  corrcoef
+%phi  transformation of x
 
 % Example data ---------------------------------------------
 % Demonstration of how ACE finds logarithmic transformations
